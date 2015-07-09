@@ -1,0 +1,26 @@
+Name:                TextInserter
+Version:             0.1.0.0
+Synopsis:            A simple utility to insert text in files.
+Description:
+    Simple program to insert text in files.
+
+License:             GPL-3
+License-file:        LICENSE
+Author:              Javier Jaramago Fernández
+Maintainer:          jaramago.fernandez.javier@gmail.com
+Category:            System Utility
+Build-type:          Simple
+Cabal-version:       >=1.10
+Tested-With:         GHC == 7.10.1
+
+executable ti
+  Main-Is:
+    Main.hs
+  Build-Depends:
+    base >=4.8 && <4.9,
+    directory >=1.2 && <1.3
+  Hs-Source-Dirs:
+    src
+  Default-Language:
+    Haskell2010
+
